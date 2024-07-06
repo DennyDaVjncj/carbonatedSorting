@@ -36,5 +36,5 @@ sortButton.addEventListener('click',sortInputArray);//our web app is now program
 
 /**
  * step 23
- * swapping logic in tentative state
+ * content fully painting & logic fully functional
  */

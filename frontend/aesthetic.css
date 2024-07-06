@@ -1,5 +1,5 @@
 :root {
-    --gray-00: #ffffff;
+    --unColor: #ffffff;
     --gray-05: #f5f6f7;
     --gray-15: #d0d0d5;
     --gray-75: #3b3b4f;
@@ -23,7 +23,7 @@
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
     background-color: var(--blue-50);
-    color: var(--gray-05);
+    color: var(--unColor);
   }
   
   main {

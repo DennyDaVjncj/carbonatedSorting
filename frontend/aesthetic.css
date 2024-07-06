@@ -1,14 +1,14 @@
 :root {
     --unColor: #ffffff;
+    --skies: #57a7e8;
+    --thugRose: #f277b9;
     --gray-05: #f5f6f7;
     --gray-15: #d0d0d5;
     --gray-75: #3b3b4f;
     --gray-85: #1b1b32;
     --gray-90: #0a0a23;
-    --blue-50: #57a7e8;
     --error: #a94442;
     --danger-color: #850000;
-    --danger-background: #ffadad;
   }
   
   *,
@@ -64,6 +64,7 @@
   .bracket,
   .comma {
     font-size: 2.3em;
+    color: var(--thugRose);
   }
   
   form .comma {

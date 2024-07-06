@@ -8,7 +8,7 @@
     --blue-50: #57a7e8;
     --error: #a94442;
     --danger-color: #850000;
-    --danger-background: #ffadad;
+    --danger-background: #ca2ad8;
   }
   
   *,
@@ -23,7 +23,7 @@
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
     background-color: var(--blue-50);
-    color: var(--gray-05);
+    color: var(--danger-background);
   }
   
   main {

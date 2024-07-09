@@ -22,7 +22,7 @@
   body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-image: linear-gradiant(--skies);
+    background-color: linear-gradiant(--skies);
     color: var(--unColor);
   }
   

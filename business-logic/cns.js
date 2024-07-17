@@ -1,6 +1,6 @@
 const sortButton = document.getElementById("sort");//initial DOM target. This target is the primary element for user to see desired request
 
-const sortInputArray = (event) => {
+const mainFunction = (event) => {
   event.preventDefault();
 
   const userSlctns = [

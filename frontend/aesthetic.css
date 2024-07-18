@@ -1,14 +1,8 @@
 :root {
-    --gray-00: #ffffff;
-    --gray-05: #f5f6f7;
-    --gray-15: #d0d0d5;
-    --gray-75: #3b3b4f;
-    --gray-85: #1b1b32;
-    --gray-90: #0a0a23;
-    --blue-50: #57a7e8;
-    --error: #a94442;
-    --danger-color: #850000;
-    --danger-background: #ca2ad8;
+    --unColor: #ffffff;
+    --skies: #57a7e8;
+    --thugRose: #f277b9;
+    --barelyBlue: #97c7fa;
   }
   
   *,
@@ -22,8 +16,12 @@
   body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-color: var(--blue-50);
-    color: var(--danger-background);
+    background: linear-gradiant(
+      to right, 
+      var(--unColor-start),
+      var(--barelyBlue-end)
+    );
+    color: var(--skies);
   }
   
   main {
@@ -64,6 +62,7 @@
   .bracket,
   .comma {
     font-size: 2.3em;
+    color: var(--thugRose);
   }
   
   form .comma {
@@ -80,7 +79,7 @@
   }
   
   button {
-    cursor: pointer;
+    cursor: progress;
     margin-top: 15px;
     text-decoration: none;
     background-image: linear-gradient(#fecc4c, #ffac33);

@@ -1,6 +1,6 @@
 const sortButton = document.getElementById("sort");//initial DOM target. This target is the primary element for user to see desired request
 
-const sortInputArray = (event) => {
+const mainFunction = (event) => {
   event.preventDefault();
 
   const userSlctns = [
@@ -32,7 +32,7 @@ const botSorting=(userRqsts)=>{
     }
     return userRqsts;
   }
-sortButton.addEventListener('click',sortInputArray);//our web app is now programmed to watch for a click event on a chosen element on our UI
+sortButton.addEventListener('click',mainFunction);//our web app is now programmed to watch for a click event on a chosen element on our UI
 
 /**
  * step 23

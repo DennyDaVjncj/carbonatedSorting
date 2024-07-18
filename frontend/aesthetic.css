@@ -22,8 +22,8 @@
   body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-color: linear-gradiant(--skies);
-    color: var(--unColor);
+    background-color: linear-gradiant(--unColor);
+    color: var(--skies);
   }
   
   main {

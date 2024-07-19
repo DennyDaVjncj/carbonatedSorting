@@ -83,8 +83,8 @@
     cursor: progress;
     margin-top: 15px;
     text-decoration: none;
-    background-image: linear-gradient(var(--barelyBlue), var(--unColor));
-    border: 3px solid var(--thugRose);
+    background-image: linear-gradient(var(--thugRose), var(--barelyBlue));
+    border: 3px solid var(--unColor);
     padding: 10px 16px;
     font-size: 23px;
     width: 100%;

@@ -16,7 +16,7 @@
   body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-image: linear-gradiant( 
+    background: linear-gradiant( 
       var(--unColor-start),
       var(--barelyBlue-end)
     );

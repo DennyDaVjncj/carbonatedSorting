@@ -16,9 +16,9 @@
   body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background: linear-gradiant( 
-      var(--unColor-start),
-      var(--barelyBlue-end)
+    background-image: linear-gradient( 
+      var(--barelyBlue),
+      var(--unColor)
     );
     color: var(--skies);
   }
@@ -31,10 +31,12 @@
   
   h1 {
     margin: 30px auto;
+    color:var(--unColor)
   }
   
   h2 {
     margin-bottom: 15px;
+    color: var(--thugRose);
   }
   
   form {

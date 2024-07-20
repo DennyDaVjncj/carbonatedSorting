@@ -16,11 +16,12 @@
   body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-image: linear-gradient( 
+    background: linear-gradient( 
       var(--barelyBlue),
       var(--unColor)
     );
     color: var(--skies);
+    height:100vh
   }
   
   main {
